@@ -1,20 +1,10 @@
-# GenericList
-List of comparable type with insertion, deletion, retrieval
-
-## How to install
-Inside a go module
-```bash
-go get github.com/nabin3/GenericList
-```
-
-## User guide demonstrated by example
-```go
+package main
 
 import (
 	"fmt"
 	"log"
 
-	"github.com/nabin3/GenericList/genericlist" // importing this library
+	"github.com/nabin3/GenericList/genericlist"
 )
 
 func main() {
@@ -54,5 +44,3 @@ func main() {
 	}
 	fmt.Printf("Retrieved item: %v\n", retrievedItem)
 }
-```
-That's it
